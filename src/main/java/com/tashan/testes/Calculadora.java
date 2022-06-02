@@ -29,7 +29,7 @@ public class Calculadora {
         int op2 = Integer.parseInt(tokens[0]);
         resultado = somador.calcula(op1,op2);
         System.out.println(op1+"+"+op2+"="+resultado);
-
+        
         // Pega os operadores seguintes e vai calculando
         int pos = 1;
         while(pos < tokens.length){
